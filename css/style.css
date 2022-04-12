@@ -8,12 +8,12 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ffa500;
+  background-color: #52b788;
   text-align: left;
 }
 
 header {
-  font-family: Work Sans;
+  font-family: 'Fraunces', serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -32,7 +32,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'FiraGO', serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -40,12 +40,12 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: 'FiraGO', serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #52b788;
   padding: 10px 0px 10px 10px;
 }
 
@@ -66,7 +66,7 @@ img {
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Work Sans';
+  font-family: 'Fraunces', serif;
 }
 
 .buttonBox {
@@ -87,7 +87,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color: rgba(0,0,0,.25);
 }
 
 .myButton:active {
@@ -98,10 +98,6 @@ img {
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
-}
-
-.a {
-
 }
 
 .c {
@@ -117,7 +113,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'FiraGO', serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -128,7 +124,7 @@ img {
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: 'Fraunces', serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -164,4 +160,7 @@ footer {
   .img {
     height: 40vh;
   }
+  .a {
+  color: #ffba08;
+}
 }
